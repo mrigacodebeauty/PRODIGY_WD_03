@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <script src="portfolio.js"></script>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <nav class="navbar">
+            <a href="C:\Users\HP\OneDrive\Desktop\prodigy\portfolio\portfolio.html" style="--i:1" class="active">Home</a>
+            <a href="#" onclick="openNav1()" style="--i:2" class="active">About</a>
+            <a href="#services" style="--i:3" class="active">Skill</a>
+            <a href="#academy" style="--i:4" class="active">Academics</a>
+            <a href="#contact" style="--i:5" class="active">Contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <img class="imgg" src="C:\Users\HP\OneDrive\Desktop\prodigy\portfolio\WhatsApp Image 2024-02-16 at 10.38.28 PM.jpeg" height="400px" width="400px">
+        <div class="home-content">
+            <h3>Hello, It's me</h3>
+            <h1>Mrigakshi Saikia</h1>
+            <h3>And I'm a</h3>
+            <p>web designer and frontend developer</p>
+
+            <div class="home-sci">
+                <a href="#"  style="--i:6"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"  style="--i:7"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"  style="--i:8"><i class='bx bxl-whatsapp' ></i></a>
+                <a href="#"  style="--i:9"><i class='bx bxl-linkedin-square' ></i></a>
+            </div>
+            <a href="#" class="btn-box">More About Me</a>
+        </div>
+    </section>    
+    <section class="about" id="about">
+        <div class="about-img">
+            <img class="img" src="C:\Users\HP\OneDrive\Desktop\prodigy\portfolio\WhatsApp Image 2024-02-16 at 10.38.28 PM.jpeg" height="300px" width="300px">
+        </div>
+        <div class="about-text">
+            <h2>About<span>Me</span></h2>
+            <h4>A Web Developer</h4>
+            <p>As a beginner web developer, I am eager to embark on a journey of learning and growth in the world of coding and design. With a foundation in HTML, CSS, and JavaScript, I am excited to expand my skills in front-end development and eventually delve into back-end technologies. I am currently working on building my first portfolio website, where I can showcase my projects and progress. I am passionate about creating visually appealing and user-friendly interfaces, and I am committed to constantly improving my skills and staying updated with the latest industry trends. I am enthusiastic about collaborating with others and contributing to projects that make a positive impact. I am excited to see where this journey will take me and look forward to the challenges and opportunities that lie ahead.</p>
+            <a href="#" class="btn-box">More About Me</a>
+        </div>
+
+    </section>   
+    <div id="mysidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn1" onclick="closeNav1()">&times;</a>
+        <div class="overlay-content1">
+            <a href="#about">Personal Info</a>
+            <a href="#academy">Academics</a>
+            <a href="#project">Projects</a>
+            <a href="#">Acheivements</a>
+            <a href="#services">Skills</a>
+        </div>
+    </div> 
+    <section class="services" id="services">
+        <div class="container">
+            <h1 class="sub-title">My<span>Skills</span></h1>
+            <div class="service-list">
+                <div>
+                    <i class='bx bx-code' style='color:#0cd8c0'  ></i>
+                    <h2>C Programming</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A rem inventore repellat debitis, et totam, quos aspernatur alias illo ullam maxime ex nemo reprehenderit suscipit dolorem libero adipisci, perspiciatis nesciunt!</p>
+                        <a href="#" class="read">learn more</a>
+                </div>
+                <div>
+                    <i class='bx bx-crop'></i>
+                    <h2>C++ Programming</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A rem inventore repellat debitis, et totam, quos aspernatur alias illo ullam maxime ex nemo reprehenderit suscipit dolorem libero adipisci, perspiciatis nesciunt!</p>
+                        <a href="#" class="read">learn more</a>
+                </div>
+                <div>
+                    <i class='bx bxl-java'></i>
+                    <h2>JAVA Programming</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A rem inventore repellat debitis, et totam, quos aspernatur alias illo ullam maxime ex nemo reprehenderit suscipit dolorem libero adipisci, perspiciatis nesciunt!</p>
+                        <a href="#" class="read">learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <section class="academy" id="academy">
+        <div class="container">
+            <h1 class="sub-title">My<span>Academics</span></h1>
+            <div class="service-list">
+                <h2>Class 10</h2>
+                <a href="#" class="read">open</a>
+            </div>
+            <div class="service-list">
+                <h2>Class 12</h2>
+                <a href="#" class="read">open</a>
+            </div>
+            <div class="service-list">
+                <h2>BTech</h2>
+                <a href="#" class="read">open</a>
+            </div>
+        </div>
+
+    </section>  
+    <section>
+        <div class="portfolio" id="project">
+            <div class="main-text" id="project">
+                <h2>Latest<span>Projects</span></h2>
+
+                <div class="portfolio-content">
+                    <div class="row">
+                        <img src="C:\Users\HP\OneDrive\Desktop\prodigy\portfolio\1project.webp" height="300px" width="200px">
+                        <div class="layer">
+                            <h5>Stop Watch</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam vero nostrum ipsum laborum fugiat esse quas tempore vitae, animi laudantium dolorem dolore aut nemo, recusandae amet magnam quaerat autem impedit!</p>
+                            <a href="#"><i class='bx bx-link-extrenal' style="color: beige;"></i></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="C:\Users\HP\OneDrive\Desktop\prodigy\portfolio\2project.webp" height="300px" width="200px">
+                        <div class="layer">
+                            <h5>Laning Page</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam vero nostrum ipsum laborum fugiat esse quas tempore vitae, animi laudantium dolorem dolore aut nemo, recusandae amet magnam quaerat autem impedit!</p>
+                            <a href="#"><i class='bx bx-link-extrenal' style="color: beige;"></i></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="C:\Users\HP\OneDrive\Desktop\prodigy\portfolio\3project.jpg" height="300px" width="200px">
+                        <div class="layer">
+                            <h5 >Payment Gateway Integration</h5>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam vero nostrum ipsum laborum fugiat esse quas tempore vitae, animi laudantium dolorem dolore aut nemo, recusandae amet magnam quaerat autem impedit!</p>
+                            <a href="#"><i class='bx bx-link-extrenal' style="color: beige;"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2 >Contact <span>Me</span></h2>
+            <h4>Let's Work Together</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non laboriosam reiciendis dicta fuga nisi nostrum consequuntur. Maiores vel amet adipisci excepturi mollitia, ad sunt! Esse ut totam numquam exercitationem ab?</p>
+            <div class="contact-list">
+                <li><i class='bx bx-send' style='color:#18dcc5'  ></i>mrigakshisaikia8@gmail.com</li>
+                <li><i class='bx bxs-phone'></i>0123456789</li>
+            </div>
+            <div class="contact-icons">
+                <a href=""><i class='bx bxl-facebook' ></i></a>
+                <a href=""><i class='bx bxl-instagram' ></i></a>
+                <a href=""><i class='bx bxl-whatsapp' ></i></a>
+                <a href=""><i class='bx bxl-linkedin-square' ></i></a>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
